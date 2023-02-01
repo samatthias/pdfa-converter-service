@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.mmosimann.pdfaconverterservice</groupId>
 	<artifactId>pdfaconverterservice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>pdfaconverterservice</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -27,6 +27,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>2.0.27</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>xmpbox</artifactId>
+    <version>2.0.27</version>
+</dependency>
 	</dependencies>
 
 	<build>
